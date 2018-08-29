@@ -3,21 +3,13 @@ from . import views
 
 app_name = 'music'
 
+
+
+
+
+# FOR CLASS BASED VIEWS
+
 urlpatterns = [
-    #load for url
-    url(r'^$', views.index, name='index'),
-
-    #load for url/music
-    url(r'^music/$', views.info, name='info'),
-
-    #load for url/music/album_id
-    url(r'^music/(?P<album_id>[0-9]+)/$', views.details, name='details'),
-
-    #load for url/music/<album_id>/favourites
-    url(r'^music/(?P<album_id>[0-9]+)/favourite/$', views.favourite, name='favourite'),
+    url(r'^$',views.InfoView.as_view(), name='info'),
+    url(r'^music/(?P<pk>[0-9]+)/$', views.DetailsView.as_view(), name='details'),
 ]
-
-
-
-
-

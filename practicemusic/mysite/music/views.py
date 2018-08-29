@@ -1,31 +1,26 @@
-from django.shortcuts import render
-from django.views.generic import TemplateView
-from django.shortcuts import render, get_object_or_404
-from . models import Album, Song
+# from django.shortcuts import render
+# from django.views.generic import TemplateView
+# from django.shortcuts import render, get_object_or_404
+# from . models import Album, Song
+#
+# # Create your views here.
+#
 
-# Create your views here.
+# GENERIC VIEWS
 
-def index(request):
-    return render(request, 'index.html')
+from django.views import generic
+from . models import Album
 
-def info(request):
-    all_album = Album.objects.all()
-    return render(request, 'info.html', {'all_album': all_album})
 
-def details(request, album_id):
-    album = get_object_or_404(Album,pk=album_id)
-    return render(request, 'details.html', {'album': album})
+class InfoView(generic.ListView):
+    template_name = 'info.html'
+    context_object_name = 'all_album'
+    # by default the name is object list
+    #if not changed here using context, we need to change the same in info.html
 
-def favourite(request, album_id):
-    album = get_object_or_404(Album, pk=album_id)
-    try:
-        selected_song = album.song_set.get(pk=request.POST['song'])
-    except (KeyError, Song.DoesNotExist):
-        return render(request, 'details.html', {
-            'album':album,
-            'error_message': 'You did not select a valid song',
-        })
-    else:
-        selected_song.is_favourite = True
-        selected_song.save()
-        return render(request, 'details.html', {'album': album})
+    def get_queryset(self):
+        return Album.objects.all()
+
+class DetailsView(generic.DetailView):
+    model = Album
+    template_name = 'details.html'
