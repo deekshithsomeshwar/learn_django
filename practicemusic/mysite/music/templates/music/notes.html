@@ -1,0 +1,10 @@
+{% extend 'base.html' %}
+
+
+{% block content %}
+<!--To add songs directly from python-->
+
+<!--&gt;>> from music.models import Album,Song-->
+<!--&gt;>> album1=Album.objects.get(pk=1)-->
+<!--&gt;>> album1.song_set.create(song_title='I Love mama mia', file_type='mp3')-->
+{% endblock %}
