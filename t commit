@@ -1,0 +1,42 @@
+[33mcommit 603c7f6889ea4096e8db97cf523b48faf1a6b93f[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: deekshithsomeshwar <deekshith_someshwar@live.com>
+Date:   Thu Aug 30 10:20:38 2018 +0530
+
+    moving socialapp and music app to git
+
+[33mcommit 680f25de2661f17ef96999aae88644e9cba3f18d[m
+Merge: 5618925 6102289
+Author: deekshithsomeshwar <deekshith_someshwar@live.com>
+Date:   Wed Aug 29 16:32:36 2018 +0530
+
+    Merge branch 'master' of https://github.com/deekshithsomeshwar/mydjango
+
+[33mcommit 5618925ef360a9a645026a428e78e27cc8e662ef[m
+Author: deekshithsomeshwar <deekshith_someshwar@live.com>
+Date:   Wed Aug 29 16:32:01 2018 +0530
+
+    class base view, navbar, notesupdated
+
+[33mcommit 61022896f5a5b60eb9e771eb2f318c8af7f17d78[m
+Author: Deekshith Someshwar <34648773+deekshithsomeshwar@users.noreply.github.com>
+Date:   Wed Aug 29 13:44:04 2018 +0530
+
+    Create README.md
+
+[33mcommit 0889720a455fe556c652c9b6b58f93c4eb6867e9[m
+Author: deekshithsomeshwar <deekshith_someshwar@live.com>
+Date:   Wed Aug 29 13:42:54 2018 +0530
+
+    added form and favourite
+
+[33mcommit 71e186889db152d392a748526d0eccd739202c7c[m
+Author: deekshithsomeshwar <deekshith_someshwar@live.com>
+Date:   Wed Aug 29 12:56:17 2018 +0530
+
+    minor changes in details and added notes
+
+[33mcommit c14edd0aede446ef0739a86d4c8f6ef1fac62478[m
+Author: deekshithsomeshwar <deekshith_someshwar@live.com>
+Date:   Wed Aug 29 12:35:16 2018 +0530
+
+    django music app
