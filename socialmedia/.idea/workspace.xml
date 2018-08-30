@@ -1,37 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10f8cf91-2cb4-461d-bfaa-ee2106881211" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practicemusic/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practicemusic/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practicemusic/.idea/practicemusic.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practicemusic/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practicemusic/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practicemusic/mysite/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practicemusic/mysite/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practicemusic/mysite/music/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practicemusic/mysite/music/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practicemusic/mysite/music/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practicemusic/mysite/music/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practicemusic/mysite/music/migrations/0002_song_is_favourite.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practicemusic/mysite/music/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practicemusic/mysite/music/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practicemusic/mysite/music/static/music/css/mystylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practicemusic/mysite/music/static/music/images/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practicemusic/mysite/music/templates/music/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practicemusic/mysite/music/templates/music/details.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practicemusic/mysite/music/templates/music/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practicemusic/mysite/music/templates/music/info.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practicemusic/mysite/music/templates/music/notes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practicemusic/mysite/music/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practicemusic/mysite/music/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practicemusic/mysite/music/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practicemusic/mysite/mysite/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practicemusic/mysite/mysite/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practicemusic/mysite/mysite/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practicemusic/mysite/mysite/wsgi.py" beforeDir="false" />
-    </list>
+    <list default="true" id="10f8cf91-2cb4-461d-bfaa-ee2106881211" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,14 +145,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" weight="0.3295082" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3295082" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3295082" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
