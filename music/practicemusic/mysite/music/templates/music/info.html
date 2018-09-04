@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+{% extends 'music/music_base.html' %}
 
 {% block content %}
 
@@ -7,6 +7,8 @@
         <ul>
             {% for album in all_album %}
                 <li><a href="{% url 'music:details' album.id %}">{{album.album_title}}</a></li>
+                <a href="{% url 'music:album-delete' album.id %}">Delete</a><br>
+
             {% endfor %}
         </ul>
     {% else %}

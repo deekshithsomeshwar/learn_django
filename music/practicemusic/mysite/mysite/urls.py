@@ -16,9 +16,22 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.conf.urls import url, include
+from django.conf import settings
+from django.conf.urls.static import static
+from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    url(r'^$', views.HomePage.as_view(), name='home'),
+    #to register
+    url(r'^register/$', views.UserFormView.as_view(), name='register'),
     #url connect for music app
-    path('', include('music.urls')),
+    url(r'^music/', include('music.urls'), name='music'),
+    #url connect for photos app
+    url(r'^photos/', include('photos.urls'), name='photos'),
 ]
+
+
+if settings.DEBUG:
+    urlpatterns += static(settings.STATIC_URL,document_root=settings.STATIC_ROOT)
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
